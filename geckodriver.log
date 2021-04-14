@@ -1,0 +1,12 @@
+1618318373161	geckodriver	INFO	Listening on 127.0.0.1:4446
+1618318396225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zahmed\\AppData\\Local\\Temp\\rust_mozprofilevQWuMu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618318408438	Marionette	INFO	Listening on port 60315
+1618318408972	Marionette	ERROR	[15] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: https://www.timeanddate.com/date/timeduration.html?d1=&m1=&y1=&d2=&m2=&y2=&h1=13&i1=12&s1=12&h2=10&i2=10&s2=28&, line 1: ReferenceError: dau_datedur is not defined
+JavaScript error: https://www.timeanddate.com/date/timeadd.html?d1=13&m1=4&y1=2021&h1=013&i1=01&s1=01&, line 1: ReferenceError: dau_dateadd is not defined
+1618318461276	Marionette	INFO	Stopped listening on port 60315
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

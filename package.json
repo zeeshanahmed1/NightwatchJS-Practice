@@ -1,0 +1,21 @@
+{
+  "name": "nightwatchtutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^89.0.0",
+    "fs": "0.0.1-security",
+    "geckodriver": "^1.22.3",
+    "googleapis": "^71.0.0",
+    "handlebars": "^4.7.7",
+    "nightwatch": "^1.6.1",
+    "nodemailer": "^6.5.0",
+    "path": "^0.12.7"
+  }
+}

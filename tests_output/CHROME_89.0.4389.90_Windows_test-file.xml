@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test-file"
+    errors="1" failures="1" hostname="" id="" package="test-file" skipped="0"
+    tests="2" time="23.28" timestamp="">
+  
+    <testcase name="confirming Form Page title" classname="test-file" time="17.50" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Clicking the Button" classname="test-file" time="5.782" assertions="2">
+
+      <failure message="Testing if element &lt;Thanks for contacting us&gt; contains text &#39;undefined&#39; in 5000ms - expected &#34;contains text &#39;undefined&#39;&#34; but got: &#34;element could not be located&#34; (5446ms)">    at Object.Clicking the Button (D:\NightWatch Workspace\NightWatchTutorial\tests\test-file.js:46:14)</failure>
+
+    
+    <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;Thanks for contacting us&gt;[0m contains text [0;33m&#39;undefined&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;undefined&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5446ms)[0m" type="error"><![CDATA[
+        at Object.Clicking the Button (D:\NightWatch Workspace\NightWatchTutorial\tests\test-file.js:46:14)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .getText() command on &lt;Thanks for contacting us&gt;: 
+   {&#34;sessionId&#34;:&#34;8cc5c5ad157e0c175e978231657426dd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
